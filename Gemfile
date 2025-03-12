@@ -7,12 +7,11 @@ gem "puma"
 gem "pry"
 gem 'httparty'
 gem 'redis', '~> 4.0'
+gem 'bootsnap'
 
 group :development do
   gem "web-console"
-  gem 'bootsnap', require: false
   gem 'dotenv-rails', require: 'dotenv/rails-now'
-
 end
 
 group :test do
