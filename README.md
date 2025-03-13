@@ -3,7 +3,9 @@ Forecast Pro is a Ruby on Rails application that provides weather forecasts base
 Description:
 
 - Fetches current weather data using OpenWeatherMap API.
+
 - Validates zip codes before making API calls.
+
 - Caches weather data for 30 minutes to optimize API usage.
 
 System Dependencies:
@@ -25,4 +27,8 @@ Note: It is not a good practice to share API keys publicly. However, since the k
 
 RSpec Tests:
 - To run the tests: bundle exec rspec
+
+Areas of Improvement:
+- Currently, the app accepts a zip code as input. I plan to expand this functionality to allow users to enter an address, city, state or country.
+- The app currently caches weather data for 30 minutes to reduce API calls. In the future, I aim to implement a more robust caching solution using Redis. This will allow for faster and more scalable caching.
 
