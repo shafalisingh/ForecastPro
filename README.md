@@ -3,9 +3,7 @@ Forecast Pro is a Ruby on Rails application that provides weather forecasts base
 Description:
 
 - Fetches current weather data using OpenWeatherMap API.
-
 - Validates zip codes before making API calls.
-
 - Caches weather data for 30 minutes to optimize API usage.
 
 System Dependencies:
