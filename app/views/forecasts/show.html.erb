@@ -1,15 +1,15 @@
 <section id="hero-container">
-<h1 class="form-header">Weather Forecast</h1>
+  <h1 class="form-header">Weather Forecast</h1>
 
-<div class="weather-container">
-  <h2><%= @city_name %>, <%= @country %></h2>
-  <p><strong>Temperature:</strong> <%= @temperature %>°F (Feels like <%= @feels_like %>°F)</p>
-  <p><strong>Humidity:</strong> <%= @humidity %>%</p>
-  <p><strong>Wind Speed:</strong> <%= @wind_speed %> m/s</p>
-  <p><strong>Weather:</strong> <%= @weather_main %> - <%= @weather_description %></p>
-  <p><strong>Cloudiness:</strong> <%= @cloudiness %>%</p>
-</div>
-<div class="home-button">
-<a href="/forecast/new" class="button">New Forecast</a>
-</div>
+  <div class="weather-container">
+    <h2><%= @city_name %>, <%= @country %></h2>
+    <p><strong>Temperature:</strong> <%= @temperature %>°F (Feels like <%= @feels_like %>°F)</p>
+    <p><strong>Humidity:</strong> <%= @humidity %>%</p>
+    <p><strong>Wind Speed:</strong> <%= @wind_speed %> m/s</p>
+    <p><strong>Weather:</strong> <%= @weather_main %> - <%= @weather_description %></p>
+    <p><strong>Cloudiness:</strong> <%= @cloudiness %>%</p>
+  </div>
+  <div class="home-button">
+  <a href="/forecast/new" class="button">New Forecast</a>
+  </div>
 </section>

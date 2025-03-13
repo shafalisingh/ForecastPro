@@ -1,3 +1,4 @@
+/* Global styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -8,6 +9,8 @@ body {
 }
   
 #hero-container{
+  /* Forecast form styles */
+
   .form-header {
       text-align: center;
       font-size: 2rem;
@@ -42,6 +45,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+
+  /* Forecast show page styles */
   .home-button {
     text-align: center;
   }
