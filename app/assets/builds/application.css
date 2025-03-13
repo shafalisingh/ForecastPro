@@ -7,73 +7,70 @@ body {
     padding: 0;
 }
   
+#hero-container{
+  .form-header {
+      text-align: center;
+      font-size: 2rem;
+      color: black;
+      margin-bottom: 20px;
+      margin-top: 20%;
+  }
 
-.form-title {
+  .forecast-form {
     text-align: center;
     font-size: 2rem;
-    color: black;
+    color: #3a6be7;
     margin-bottom: 20px;
-    margin-top: 20%;
+  }
+
+  .form-text {
+    width: 15%;
+    padding: 10px;
+    border: 1px solid #3a6be7; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: border-color 0.3s;
+    text-align: center;
+  }
+
+
+  .form-submit {
+    background: #3a6be7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .home-button {
+    text-align: center;
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: #3a6be7;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .weather-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .error-alert {
+    color: red;
+    font-size: 15px;
+  }
 }
-
-
-.forecast-form {
-  text-align: center;
-  font-size: 2rem;
-  color: #3a6be7;
-  margin-bottom: 20px;
-}
-
-.form-input {
-  width: 15%;
-  padding: 10px;
-  border: 1px solid #3a6be7; 
-  border-radius: 5px; 
-  font-size: 16px; 
-  transition: border-color 0.3s;
-  text-align: center;
-}
-
-
-.form-submit {
-  background: #3a6be7;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.home-button {
-  text-align: center;
-}
-.button {
-  padding: 10px 20px;
-  background-color: #3a6be7;
-  color: white;
-  border-radius: 5px;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.weather-container {
-  max-width: 500px;
-  margin: 30px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  text-align: center;
-  margin-top: 5%;
-}
-
-
-p {
-  font-size: 18px;
-  margin: 5px 0;
-}
-
-.error-alert {
-  color: red;
-  font-size: 15px;
-}
-

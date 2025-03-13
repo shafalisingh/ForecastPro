@@ -1,8 +1,8 @@
-<section class="hero-container">
-<h1 class="form-title">Enter your Zip Code for Weather Forecast</h1>
+<section id="hero-container">
+<h1 class="form-header">Enter your Zip Code for Weather Forecast</h1>
 
 <%= form_with url: weather_forecast_path, method: :get, class: "forecast-form" do |form| %>
-  <%= form.text_field :zip_code, required: true, class: "form-input", placeholder: "Enter Zip Code" %> <br/>
+  <%= form.text_field :zip_code, required: true, class: "form-text", placeholder: "Enter Zip Code" %> <br/>
 <% if flash[:error] %>
   <div class="error-alert"><%= flash[:error] %></div>
 <% end %>

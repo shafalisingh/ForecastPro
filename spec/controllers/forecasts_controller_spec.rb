@@ -12,7 +12,7 @@ RSpec.describe ForecastsController, type: :controller do
     end
   end
 
-  describe 'GET /weather' do
+  describe 'GET /forecast' do
     let(:zip_code) { '98001' }
     let(:api_key) { ENV['API_KEY'] }
     it 'returns a successful response from the API' do
